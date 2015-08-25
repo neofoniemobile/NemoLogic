@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.osx.platform     = :osx
   s.osx.deployment_target = '10.8'
 
-  s.source_files = 'Nemo\ Logic/Sources/**/*.{h,m}'
+  s.source_files = 'Nemo\ Logic/**/*.{h,m}'
 end
