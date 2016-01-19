@@ -36,7 +36,7 @@ To use the NL you have to create a configuration plist file. At the root, there 
 - **manager name** - *Dictionary* - The name of the manager
 	- **className** *String* - mandatory - The class of the manager. Child class of NLManager. 
 	- **communicationController** *Dictionary* - optional - Definition of the communication controller
-		 - **className** *String* - mandatory - The class of the Communication Controller. Child class of NLCommunicationController
+		- **className** *String* - mandatory - The class of the Communication Controller. Child class of NLCommunicationController
 		- **services** *Array* - optional - Definition of the services
 			- **className** *String* - mandatory - The class of the Network Service. Child class of NLNetworkService
 			- **propertyName**  *String* - mandatory - The name of the property in the communication controller to set the service
