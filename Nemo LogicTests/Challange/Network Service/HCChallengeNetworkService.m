@@ -1,14 +1,14 @@
 //
-//  HCChallangeNetworkService.m
+//  HCChallengeNetworkService.m
 //  Nemo Logic
 //
 //  Copyright (c) 2015 Neofonie Mobile GmbH. All rights reserved.
 //  See LICENSE.txt for this framework's licensing information.
 //
 
-#import "HCChallangeNetworkService.h"
+#import "HCChallengeNetworkService.h"
 
-@implementation HCChallangeNetworkService
+@implementation HCChallengeNetworkService
 
 - (instancetype)initWithConfigurationDictionary:(NSDictionary *)configurationDictionary
 {

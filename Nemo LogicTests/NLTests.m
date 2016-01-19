@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "NLManagerProvider.h"
-#import "HCChallangeManager.h"
-#import "HCChallangeDataAccessController.h"
-#import "HCChallangeCommunicationController.h"
-#import "HCChallangeNetworkService.h"
+#import "HCChallengeManager.h"
+#import "HCChallengeDataAccessController.h"
+#import "HCChallengeCommunicationController.h"
+#import "HCChallengeNetworkService.h"
 
 @interface NLTests : XCTestCase
 
@@ -57,15 +57,15 @@
 
     [NLManagerProvider setConfigurationDictionary:dictionary];
     [[NLManagerProvider sharedInstance] resetManagers];
-    HCChallangeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallangeManager"];
-    HCChallangeDataAccessController *dataAccessController = [manager valueForKey:@"dataAccessController"];
-    HCChallangeCommunicationController *communicationController = [dataAccessController valueForKey:@"communicationController"];
-    HCChallangeNetworkService *networkService = [communicationController challangeNetworkService];
+    HCChallengeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallengeManager"];
+    HCChallengeDataAccessController *dataAccessController = [manager valueForKey:@"dataAccessController"];
+    HCChallengeCommunicationController *communicationController = [manager valueForKey:@"communicationController"];
+    HCChallengeNetworkService *networkService = [communicationController challengeNetworkService];
 
-    XCTAssert([manager isKindOfClass:[HCChallangeManager class]], @"Manager not created");
-    XCTAssert([dataAccessController isKindOfClass:[HCChallangeDataAccessController class]], @"Data Access Controller not created");
-    XCTAssert([communicationController isKindOfClass:[HCChallangeCommunicationController class]], @"Communication Controller not created");
-    XCTAssert([networkService isKindOfClass:[HCChallangeNetworkService class]], @"Network Service not created");
+    XCTAssert([manager isKindOfClass:[HCChallengeManager class]], @"Manager not created");
+    XCTAssert([dataAccessController isKindOfClass:[HCChallengeDataAccessController class]], @"Data Access Controller not created");
+    XCTAssert([communicationController isKindOfClass:[HCChallengeCommunicationController class]], @"Communication Controller not created");
+    XCTAssert([networkService isKindOfClass:[HCChallengeNetworkService class]], @"Network Service not created");
 }
 
 - (void)testCorrectPlistWithoutNetwork
@@ -74,12 +74,12 @@
 
     [NLManagerProvider setConfigurationDictionary:dictionary];
     [[NLManagerProvider sharedInstance] resetManagers];
-    HCChallangeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallangeManagerWithoutNetwork"];
-    HCChallangeDataAccessController *dataAccessController = [manager valueForKey:@"dataAccessController"];
-    HCChallangeCommunicationController *communicationController = [dataAccessController valueForKey:@"communicationController"];
+    HCChallengeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallengeManagerWithoutNetwork"];
+    HCChallengeDataAccessController *dataAccessController = [manager valueForKey:@"dataAccessController"];
+    HCChallengeCommunicationController *communicationController = [manager valueForKey:@"communicationController"];
 
-    XCTAssert([manager isKindOfClass:[HCChallangeManager class]], @"Manager not created");
-    XCTAssert([dataAccessController isKindOfClass:[HCChallangeDataAccessController class]], @"Data Access Controller not created");
+    XCTAssert([manager isKindOfClass:[HCChallengeManager class]], @"Manager not created");
+    XCTAssert([dataAccessController isKindOfClass:[HCChallengeDataAccessController class]], @"Data Access Controller not created");
     XCTAssert(communicationController == nil, @"Communication Controller created");
 }
 
@@ -89,7 +89,7 @@
 
     [NLManagerProvider setConfigurationDictionary:dictionary];
     [[NLManagerProvider sharedInstance] resetManagers];
-    HCChallangeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallangeManagerWithoutClassName"];
+    HCChallengeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallengeManagerWithoutClassName"];
     XCTAssert(manager == nil, @"Manager created");
 }
 
@@ -99,7 +99,7 @@
 
     [NLManagerProvider setConfigurationDictionary:dictionary];
     [[NLManagerProvider sharedInstance] resetManagers];
-    HCChallangeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallangeManagerWithoutDataControllerClassName"];
+    HCChallengeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallengeManagerWithoutDataControllerClassName"];
     XCTAssert([manager valueForKey:@"dataAccessController"] == nil, @"Data access controller created");
 }
 
@@ -109,7 +109,7 @@
     
     [NLManagerProvider setConfigurationDictionary:dictionary];
     [[NLManagerProvider sharedInstance] resetManagers];
-    HCChallangeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallangeManagerWithoutDataController"];
+    HCChallengeManager *manager = [[NLManagerProvider sharedInstance] managerWithName:@"ChallengeManagerWithoutDataController"];
     XCTAssert([manager valueForKey:@"dataAccessController"] == nil, @"Data access controller created");
 }
 

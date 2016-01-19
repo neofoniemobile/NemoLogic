@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NemoLogic"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "Universal service provider, main goal is to speed up the architectural development of the projects."
   s.homepage     = 'http://www.neofonie-mobile.de/'
   s.social_media_url = 'https://twitter.com/neofoniemobile'

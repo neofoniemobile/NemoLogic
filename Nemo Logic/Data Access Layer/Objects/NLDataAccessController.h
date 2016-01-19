@@ -8,10 +8,6 @@
 
 @import Foundation;
 
-@class NLCommunicationController;
-
 @interface NLDataAccessController : NSObject
-
-- (instancetype)initWithCommunicationController:(NLCommunicationController *)communicationController;
 
 @end

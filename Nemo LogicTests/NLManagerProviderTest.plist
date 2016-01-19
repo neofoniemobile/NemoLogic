@@ -2,63 +2,63 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ChallangeManager</key>
+	<key>ChallengeManager</key>
 	<dict>
-		<key>dataAccessController</key>
+		<key>communicationController</key>
 		<dict>
-			<key>communicationController</key>
-			<dict>
-				<key>services</key>
-				<array>
+			<key>services</key>
+			<array>
+				<dict>
+					<key>className</key>
+					<string>HCChallengeNetworkService</string>
+					<key>propertyName</key>
+					<string>challengeNetworkService</string>
+					<key>networkServiceConfiguration</key>
 					<dict>
-						<key>className</key>
-						<string>HCChallangeNetworkService</string>
-						<key>propertyName</key>
-						<string>challangeNetworkService</string>
-						<key>networkServiceConfiguration</key>
-						<dict>
-							<key>NIFServiceName</key>
-							<string>HCChallangeService</string>
-						</dict>
+						<key>NIFServiceName</key>
+						<string>HCChallengeService</string>
 					</dict>
-				</array>
-				<key>className</key>
-				<string>HCChallangeCommunicationController</string>
-			</dict>
+				</dict>
+			</array>
 			<key>className</key>
-			<string>HCChallangeDataAccessController</string>
+			<string>HCChallengeCommunicationController</string>
+		</dict>
+		<key>dataAccessController</key>
+		<dict>
+			<key>className</key>
+			<string>HCChallengeDataAccessController</string>
 		</dict>
 		<key>className</key>
-		<string>HCChallangeManager</string>
+		<string>HCChallengeManager</string>
 	</dict>
-	<key>ChallangeManagerWithoutNetwork</key>
+	<key>ChallengeManagerWithoutNetwork</key>
 	<dict>
 		<key>dataAccessController</key>
 		<dict>
 			<key>className</key>
-			<string>HCChallangeDataAccessController</string>
+			<string>HCChallengeDataAccessController</string>
 		</dict>
 		<key>className</key>
-		<string>HCChallangeManager</string>
+		<string>HCChallengeManager</string>
 	</dict>
-	<key>ChallangeManagerWithoutDataController</key>
+	<key>ChallengeManagerWithoutDataController</key>
 	<dict>
 		<key>className</key>
-		<string>HCChallangeManager</string>
+		<string>HCChallengeManager</string>
 	</dict>
-	<key>ChallangeManagerWithoutDataControllerClassName</key>
+	<key>ChallengeManagerWithoutDataControllerClassName</key>
 	<dict>
 		<key>dataAccessController</key>
 		<dict/>
 		<key>className</key>
-		<string>HCChallangeManager</string>
+		<string>HCChallengeManager</string>
 	</dict>
-	<key>ChallangeManagerWithoutClassName</key>
+	<key>ChallengeManagerWithoutClassName</key>
 	<dict>
 		<key>dataAccessController</key>
 		<dict>
 			<key>className</key>
-			<string>HCChallangeDataAccessController</string>
+			<string>HCChallengeDataAccessController</string>
 		</dict>
 	</dict>
 </dict>

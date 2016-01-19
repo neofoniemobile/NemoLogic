@@ -9,13 +9,18 @@
 #import "NLManagerProvider.h"
 #import "NLManager.h"
 #import "NLDataAccessControllerProvider.h"
+#import "NLCommunicationController.h"
 #import "NLConfigurationDictionaryKeys.h"
+#import "NLCommunicationControllerProvider.h"
+#import "NLCommunicationController.h"
 
 @interface NLManagerProvider ()
 
 @property (nonatomic, strong) NSMutableDictionary *managerStore;
 @property (nonatomic, strong) NSDictionary *configurationDictionary;
 @property (nonatomic, strong) NLDataAccessControllerProvider *dataAccessControllerProvider;
+@property (nonatomic, strong) NLCommunicationControllerProvider *communicationControllerProvider;
+
 @property (nonatomic, strong) NSLock *lock;
 
 @end
@@ -46,6 +51,7 @@
     if (self)
     {
         self.dataAccessControllerProvider = [[NLDataAccessControllerProvider alloc] init];
+        self.communicationControllerProvider = [[NLCommunicationControllerProvider alloc] init];
         self.configurationDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:NSStringFromClass([self class]) ofType:@"plist"]];
         self.managerStore = [[NSMutableDictionary alloc] init];
         self.lock = [[NSLock alloc] init];
@@ -68,8 +74,9 @@
             NSDictionary *managerDictionary = self.configurationDictionary[managerName];
 
             NLDataAccessController *dataAccessController = [self.dataAccessControllerProvider dataAccessControllerWithConfigurationDictionary:managerDictionary[NLDataAccessControllerConfigurationKey]];
+            NLCommunicationController *communicationController = [self.communicationControllerProvider communicationControllerWithConfigurationDictionary:managerDictionary[NLCommunicationControllerConfigurationKey]];
 
-            manager = [[NSClassFromString(managerDictionary[NLClassNameConfigurationKey]) alloc] initWithDataAccessController:dataAccessController];
+            manager = [[NSClassFromString(managerDictionary[NLClassNameConfigurationKey]) alloc] initWithDataAccessController:dataAccessController communicationController:communicationController];
 
             if (manager)
             {

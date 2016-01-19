@@ -19,11 +19,11 @@ The manager’s responsibility is to contain all business logic. For example col
 
 ### Data Access Controller 
 
-The data access controller’s responsibility to handle data operations like create / remove / persist. The manager can ask data from the controller. Based on the needs of the project, it can read the persistent store (like Core Data, file system, etc ) or submit a request to the communication controller for example if there is no data storage implementation or there is no available data for the request.
+The data access controller’s responsibility to handle data operations like create / remove / persist. The manager can pass data to the controller to save it, or ask it for cached values. Based on the needs of the project, it can use the persistent store (like Core Data, file system, etc ).
 
 ### Communication Controller 
 
-The communication controller will handle all communication requests from the data access controller. Because each application is different, it can have multiple network service controller for different endpoints.
+The communication controller will handle all communication requests from the manager. Because each application is different, it can have multiple network service controller for different endpoints. Usually if the manager receive an error, it can use the data access controller to receive the cached value. Otherwise it can pass the received value to the DAO layer to persist it. 
 
 ### Network Service 
 
@@ -35,15 +35,15 @@ To use the NL you have to create a configuration plist file. At the root, there 
 
 - **manager name** - *Dictionary* - The name of the manager
 	- **className** *String* - mandatory - The class of the manager. Child class of NLManager. 
+	- **communicationController** *Dictionary* - optional - Definition of the communication controller
+		- **className** *String* - mandatory - The class of the Communication Controller. Child class of NLCommunicationController
+		- **services** *Array* - optional - Definition of the services
+			- **className** *String* - mandatory - The class of the Network Service. Child class of NLNetworkService
+			- **propertyName**  *String* - mandatory - The name of the property in the communication controller to set the service
+			- **networkServiceConfiguration** *Dictionary* - optional - The configuration of the network service. It is passed to the designated initialiser of the network service.
 	- **dataAccessController** *Dictionary* - optional - Definition of the data access controller
 	 	- **className**  *String* - mandatory - The class of the Data Access Controller. Child class of NLDataAccessController
-		- **communicationController** *Dictionary* - optional - Definition of the communication controller
-			 - **className** *String* - mandatory - The class of the Communication Controller. Child class of NLCommunicationController
-			- **services** *Array* - optional - Definition of the services
-				- **className** *String* - mandatory - The class of the Network Service. Child class of NLNetworkService
-				- **propertyName**  *String* - mandatory - The name of the property in the communication controller to set the service
-				- **networkServiceConfiguration** *Dictionary* - optional - The configuration of the network service. It is passed to the designated initialiser of the network service.
-
+		
 
 # How to use
 
@@ -69,7 +69,7 @@ Nemo Connect requires at least **iOS 6** or **OSX 10.8**. This framework is desi
 [CocoaPods](http://cocoapods.org) is a dependency manager, which automates and simplifies the process of using 3rd-party libraries in your projects. To add NemoConnect via CocoaPods, add the following line to your `Podfile`.
 
 ```ruby
-pod "NemoLogic", "~> 1.0"
+pod "NemoLogic", "~> 2.0"
 ```
 ***
 
