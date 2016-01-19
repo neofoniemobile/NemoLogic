@@ -8,14 +8,12 @@
 
 #import "NLDataAccessControllerProvider.h"
 #import "NLDataAccessController.h"
-#import "NLCommunicationControllerProvider.h"
-#import "NLCommunicationController.h"
+
 #import "NLConfigurationDictionaryKeys.h"
 
 @interface NLDataAccessControllerProvider ()
 
 @property (nonatomic, strong) NSMutableDictionary *dataAccessControllerStore;
-@property (nonatomic, strong) NLCommunicationControllerProvider *communicationControllerProvider;
 
 @end
 
@@ -28,7 +26,6 @@
     if (self)
     {
         self.dataAccessControllerStore = [[NSMutableDictionary alloc] init];
-        self.communicationControllerProvider = [[NLCommunicationControllerProvider alloc] init];
     }
 
     return self;
@@ -41,9 +38,7 @@
 
     if (!dataAccessController && className)
     {
-        NLCommunicationController *communicationController = [self.communicationControllerProvider communicationControllerWithConfigurationDictionary:configurationDictionary[NLCommunicationControllerConfigurationKey]];
-
-        dataAccessController = [[NSClassFromString(className) alloc] initWithCommunicationController:communicationController];
+        dataAccessController = [[NSClassFromString(className) alloc] init];
 
         if (dataAccessController)
         {

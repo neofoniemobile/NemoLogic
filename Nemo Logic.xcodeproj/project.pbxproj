@@ -23,16 +23,16 @@
 		9E6F603C1B5D1ACD00B7FD35 /* NLNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60161B5D1ACD00B7FD35 /* NLNetworkService.m */; };
 		9E6F603D1B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60191B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m */; };
 		9E6F603E1B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60191B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m */; };
-		9E6F603F1B5D1ACD00B7FD35 /* HCChallange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F601F1B5D1ACD00B7FD35 /* HCChallange.m */; };
-		9E6F60401B5D1ACD00B7FD35 /* HCChallange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F601F1B5D1ACD00B7FD35 /* HCChallange.m */; };
-		9E6F60411B5D1ACD00B7FD35 /* HCChallangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60211B5D1ACD00B7FD35 /* HCChallangeManager.m */; };
-		9E6F60421B5D1ACD00B7FD35 /* HCChallangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60211B5D1ACD00B7FD35 /* HCChallangeManager.m */; };
-		9E6F60431B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60241B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m */; };
-		9E6F60441B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60241B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m */; };
-		9E6F60451B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60271B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m */; };
-		9E6F60461B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60271B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m */; };
-		9E6F60471B5D1ACD00B7FD35 /* HCChallangeNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F602A1B5D1ACD00B7FD35 /* HCChallangeNetworkService.m */; };
-		9E6F60481B5D1ACD00B7FD35 /* HCChallangeNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F602A1B5D1ACD00B7FD35 /* HCChallangeNetworkService.m */; };
+		9E6F603F1B5D1ACD00B7FD35 /* HCChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F601F1B5D1ACD00B7FD35 /* HCChallenge.m */; };
+		9E6F60401B5D1ACD00B7FD35 /* HCChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F601F1B5D1ACD00B7FD35 /* HCChallenge.m */; };
+		9E6F60411B5D1ACD00B7FD35 /* HCChallengeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60211B5D1ACD00B7FD35 /* HCChallengeManager.m */; };
+		9E6F60421B5D1ACD00B7FD35 /* HCChallengeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60211B5D1ACD00B7FD35 /* HCChallengeManager.m */; };
+		9E6F60431B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60241B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m */; };
+		9E6F60441B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60241B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m */; };
+		9E6F60451B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60271B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m */; };
+		9E6F60461B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F60271B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m */; };
+		9E6F60471B5D1ACD00B7FD35 /* HCChallengeNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F602A1B5D1ACD00B7FD35 /* HCChallengeNetworkService.m */; };
+		9E6F60481B5D1ACD00B7FD35 /* HCChallengeNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F602A1B5D1ACD00B7FD35 /* HCChallengeNetworkService.m */; };
 		9E6F604A1B5D1ACD00B7FD35 /* NLManagerProvider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E6F602C1B5D1ACD00B7FD35 /* NLManagerProvider.plist */; };
 		9E6F604B1B5D1ACD00B7FD35 /* NLManagerProviderTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E6F602D1B5D1ACD00B7FD35 /* NLManagerProviderTest.plist */; };
 		9E6F604D1B5D1ACD00B7FD35 /* NLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F602E1B5D1ACD00B7FD35 /* NLTests.m */; };
@@ -79,16 +79,16 @@
 		9E6F60181B5D1ACD00B7FD35 /* NLNetworkServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNetworkServiceProvider.h; sourceTree = "<group>"; };
 		9E6F60191B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNetworkServiceProvider.m; sourceTree = "<group>"; };
 		9E6F601A1B5D1ACD00B7FD35 /* NLConfigurationDictionaryKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLConfigurationDictionaryKeys.h; sourceTree = "<group>"; };
-		9E6F601E1B5D1ACD00B7FD35 /* HCChallange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallange.h; sourceTree = "<group>"; };
-		9E6F601F1B5D1ACD00B7FD35 /* HCChallange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallange.m; sourceTree = "<group>"; };
-		9E6F60201B5D1ACD00B7FD35 /* HCChallangeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallangeManager.h; sourceTree = "<group>"; };
-		9E6F60211B5D1ACD00B7FD35 /* HCChallangeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallangeManager.m; sourceTree = "<group>"; };
-		9E6F60231B5D1ACD00B7FD35 /* HCChallangeCommunicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallangeCommunicationController.h; sourceTree = "<group>"; };
-		9E6F60241B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallangeCommunicationController.m; sourceTree = "<group>"; };
-		9E6F60261B5D1ACD00B7FD35 /* HCChallangeDataAccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallangeDataAccessController.h; sourceTree = "<group>"; };
-		9E6F60271B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallangeDataAccessController.m; sourceTree = "<group>"; };
-		9E6F60291B5D1ACD00B7FD35 /* HCChallangeNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallangeNetworkService.h; sourceTree = "<group>"; };
-		9E6F602A1B5D1ACD00B7FD35 /* HCChallangeNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallangeNetworkService.m; sourceTree = "<group>"; };
+		9E6F601E1B5D1ACD00B7FD35 /* HCChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallenge.h; sourceTree = "<group>"; };
+		9E6F601F1B5D1ACD00B7FD35 /* HCChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallenge.m; sourceTree = "<group>"; };
+		9E6F60201B5D1ACD00B7FD35 /* HCChallengeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallengeManager.h; sourceTree = "<group>"; };
+		9E6F60211B5D1ACD00B7FD35 /* HCChallengeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallengeManager.m; sourceTree = "<group>"; };
+		9E6F60231B5D1ACD00B7FD35 /* HCChallengeCommunicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallengeCommunicationController.h; sourceTree = "<group>"; };
+		9E6F60241B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallengeCommunicationController.m; sourceTree = "<group>"; };
+		9E6F60261B5D1ACD00B7FD35 /* HCChallengeDataAccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallengeDataAccessController.h; sourceTree = "<group>"; };
+		9E6F60271B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallengeDataAccessController.m; sourceTree = "<group>"; };
+		9E6F60291B5D1ACD00B7FD35 /* HCChallengeNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChallengeNetworkService.h; sourceTree = "<group>"; };
+		9E6F602A1B5D1ACD00B7FD35 /* HCChallengeNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChallengeNetworkService.m; sourceTree = "<group>"; };
 		9E6F602B1B5D1ACD00B7FD35 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E6F602C1B5D1ACD00B7FD35 /* NLManagerProvider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NLManagerProvider.plist; sourceTree = "<group>"; };
 		9E6F602D1B5D1ACD00B7FD35 /* NLManagerProviderTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NLManagerProviderTest.plist; sourceTree = "<group>"; };
@@ -262,10 +262,10 @@
 		9E6F601D1B5D1ACD00B7FD35 /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
-				9E6F601E1B5D1ACD00B7FD35 /* HCChallange.h */,
-				9E6F601F1B5D1ACD00B7FD35 /* HCChallange.m */,
-				9E6F60201B5D1ACD00B7FD35 /* HCChallangeManager.h */,
-				9E6F60211B5D1ACD00B7FD35 /* HCChallangeManager.m */,
+				9E6F601E1B5D1ACD00B7FD35 /* HCChallenge.h */,
+				9E6F601F1B5D1ACD00B7FD35 /* HCChallenge.m */,
+				9E6F60201B5D1ACD00B7FD35 /* HCChallengeManager.h */,
+				9E6F60211B5D1ACD00B7FD35 /* HCChallengeManager.m */,
 			);
 			path = "Business Logic";
 			sourceTree = "<group>";
@@ -273,8 +273,8 @@
 		9E6F60221B5D1ACD00B7FD35 /* Communication Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9E6F60231B5D1ACD00B7FD35 /* HCChallangeCommunicationController.h */,
-				9E6F60241B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m */,
+				9E6F60231B5D1ACD00B7FD35 /* HCChallengeCommunicationController.h */,
+				9E6F60241B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m */,
 			);
 			path = "Communication Controller";
 			sourceTree = "<group>";
@@ -282,8 +282,8 @@
 		9E6F60251B5D1ACD00B7FD35 /* Data Access Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9E6F60261B5D1ACD00B7FD35 /* HCChallangeDataAccessController.h */,
-				9E6F60271B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m */,
+				9E6F60261B5D1ACD00B7FD35 /* HCChallengeDataAccessController.h */,
+				9E6F60271B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m */,
 			);
 			path = "Data Access Controller";
 			sourceTree = "<group>";
@@ -291,8 +291,8 @@
 		9E6F60281B5D1ACD00B7FD35 /* Network Service */ = {
 			isa = PBXGroup;
 			children = (
-				9E6F60291B5D1ACD00B7FD35 /* HCChallangeNetworkService.h */,
-				9E6F602A1B5D1ACD00B7FD35 /* HCChallangeNetworkService.m */,
+				9E6F60291B5D1ACD00B7FD35 /* HCChallengeNetworkService.h */,
+				9E6F602A1B5D1ACD00B7FD35 /* HCChallengeNetworkService.m */,
 			);
 			path = "Network Service";
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 		CFA6A2261A6FA61F00B40F70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Neofonie Mobile";
 				TargetAttributes = {
 					CFA6A22D1A6FA61F00B40F70 = {
@@ -411,12 +411,12 @@
 				9E6F60391B5D1ACD00B7FD35 /* NLDataAccessControllerProvider.m in Sources */,
 				9E6F60331B5D1ACD00B7FD35 /* NLCommunicationController.m in Sources */,
 				9E6F603D1B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m in Sources */,
-				9E6F60411B5D1ACD00B7FD35 /* HCChallangeManager.m in Sources */,
-				9E6F60431B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m in Sources */,
+				9E6F60411B5D1ACD00B7FD35 /* HCChallengeManager.m in Sources */,
+				9E6F60431B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m in Sources */,
 				9E6F60371B5D1ACD00B7FD35 /* NLDataAccessController.m in Sources */,
-				9E6F603F1B5D1ACD00B7FD35 /* HCChallange.m in Sources */,
-				9E6F60451B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m in Sources */,
-				9E6F60471B5D1ACD00B7FD35 /* HCChallangeNetworkService.m in Sources */,
+				9E6F603F1B5D1ACD00B7FD35 /* HCChallenge.m in Sources */,
+				9E6F60451B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m in Sources */,
+				9E6F60471B5D1ACD00B7FD35 /* HCChallengeNetworkService.m in Sources */,
 				9E6F602F1B5D1ACD00B7FD35 /* NLManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,13 +431,13 @@
 				9E6F603A1B5D1ACD00B7FD35 /* NLDataAccessControllerProvider.m in Sources */,
 				9E6F60341B5D1ACD00B7FD35 /* NLCommunicationController.m in Sources */,
 				9E6F603E1B5D1ACD00B7FD35 /* NLNetworkServiceProvider.m in Sources */,
-				9E6F60421B5D1ACD00B7FD35 /* HCChallangeManager.m in Sources */,
-				9E6F60441B5D1ACD00B7FD35 /* HCChallangeCommunicationController.m in Sources */,
+				9E6F60421B5D1ACD00B7FD35 /* HCChallengeManager.m in Sources */,
+				9E6F60441B5D1ACD00B7FD35 /* HCChallengeCommunicationController.m in Sources */,
 				9E6F60381B5D1ACD00B7FD35 /* NLDataAccessController.m in Sources */,
 				9E6F604D1B5D1ACD00B7FD35 /* NLTests.m in Sources */,
-				9E6F60401B5D1ACD00B7FD35 /* HCChallange.m in Sources */,
-				9E6F60461B5D1ACD00B7FD35 /* HCChallangeDataAccessController.m in Sources */,
-				9E6F60481B5D1ACD00B7FD35 /* HCChallangeNetworkService.m in Sources */,
+				9E6F60401B5D1ACD00B7FD35 /* HCChallenge.m in Sources */,
+				9E6F60461B5D1ACD00B7FD35 /* HCChallengeDataAccessController.m in Sources */,
+				9E6F60481B5D1ACD00B7FD35 /* HCChallengeNetworkService.m in Sources */,
 				9E6F60301B5D1ACD00B7FD35 /* NLManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +472,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -486,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -520,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -559,6 +560,7 @@
 				);
 				INFOPLIST_FILE = "Nemo LogicTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "neofonie.mobile.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "Nemo LogicTests";
 			};
 			name = Debug;
@@ -573,6 +575,7 @@
 				);
 				INFOPLIST_FILE = "Nemo LogicTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "neofonie.mobile.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "Nemo LogicTests";
 			};
 			name = Release;

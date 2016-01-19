@@ -8,24 +8,6 @@
 
 #import "NLDataAccessController.h"
 
-@interface NLDataAccessController ()
-
-@property (nonatomic, strong) NLCommunicationController *communicationController;
-
-@end
-
 @implementation NLDataAccessController
-
-- (instancetype)initWithCommunicationController:(NLCommunicationController *)communicationController
-{
-    self = [super init];
-
-    if (self)
-    {
-        self.communicationController = communicationController;
-    }
-
-    return self;
-}
 
 @end
