@@ -9,9 +9,10 @@
 @import Foundation;
 
 @class NLDataAccessController;
+@class NLCommunicationController;
 
 @interface NLManager : NSObject
 
-- (instancetype)initWithDataAccessController:(NLDataAccessController *)dataAccessController;
+- (instancetype)initWithDataAccessController:(NLDataAccessController *)dataAccessController communicationController:(NLCommunicationController *)communicationController;
 
 @end
